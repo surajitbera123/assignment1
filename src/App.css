@@ -1,0 +1,129 @@
+
+  @media screen and (max-width:400px) {
+      .first-container{
+        background-color: rgb(36, 20, 20);
+          height: 120vh;
+          width: 85vh;
+      }
+      .h1-data{
+          font-size:40px;
+          font-weight: bolder;
+          margin-left: 70px;
+          position: relative;
+          left:-4px;
+
+          }
+          .h3-data{
+              margin-left: 70px;
+              position: relative;
+              left:-6px;
+          }
+          .inside-div{
+              display: flex;
+              margin-left: 100px;
+              margin-top: 40px;
+          }
+          .input-div{
+              margin-left: 80px;
+          }
+          .wrong-details{
+              margin-left: 90px;
+              margin-top: 22px;
+          }
+          button{
+            background-color: green;
+              width: 200px;
+              height: 40px;
+              text-align: center;
+              color: aliceblue;
+              border: none;
+              margin-left: 90px;
+              margin-top: 20px;
+          }
+          .back{
+              margin-top: 30px;
+              margin-left: 90px;
+          }
+          .text-danger{
+            color:red;
+          }
+  }
+  body{
+    background-color: black;
+    color: aliceblue;
+    }
+    .first-container{
+        background-color: rgb(36, 20, 20);
+        height: 100vh;
+        width: 70vh;
+        border-radius: 20px;
+    }
+    .h1-data{
+    font-size:40px;
+    font-weight: bolder;
+    padding: 40px;
+    color: yellowgreen;
+    position: relative;
+    left:-4px;
+    }
+    .h3-data{
+        padding-top: 40px;
+        padding-left: 40px;
+        font-size: 24px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        position: relative;
+        left:-8px;
+      }
+    .inside-div{
+        display: flex;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .para-2{
+        margin-left: 40px;
+        color: rgb(117, 115, 115);
+    }
+    .input-div{
+    margin-left: 10px;
+    
+    }
+    input{
+      height: 40px;
+      width: 50px;
+        border-radius: 10px;
+        margin-left: 20px;
+        background-color: black;
+        color: aliceblue;
+        border: none;
+        text-align: center;
+        box-shadow:2px 3px 4px rgb(37, 43, 37);
+    }
+    input:focus{
+      background-color:blueviolet;
+      border: none;
+     
+    }
+    .wrong-details{
+        margin-left: 30px;
+        margin-top: 22px;
+    }
+    button{
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        color: darkorange;
+        border: none;
+        margin-left: 30px;
+        margin-top: 20px;
+        background-color: green;
+        border-radius: 30px;
+        font-size: 25px;
+    }
+     button:hover{
+      box-shadow:2px 3px 4px rgb(226, 199, 199);
+      cursor: pointer;
+     }
+    .back{
+        margin-top: 90px;
+        margin-left: 40px;
+    }
